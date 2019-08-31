@@ -19,7 +19,7 @@ public class PeoplePage {
 
 	// Svi objekti na strani u listu (Ne news)
 	private static List<WebElement> elementsPeopleList() {
-		return driver.findElements(By.cssSelector("div.bio div"));
+		return driver.findElements(By.cssSelector("div.bio"));
 
 	}
 
